@@ -10,7 +10,7 @@ nav{
     justify-content:baseline;
     background-color: rgb(44, 69, 122);
     align-items: center;
-    height: 130px;
+    height: 110px;
     opacity: 0.95;
     padding-left: 60px;
     z-index: 5;
@@ -19,18 +19,17 @@ nav{
     display: flex;
     padding: 40px 20px 20px 0px;
     width: 440.39px;
-    
 }
 #title{
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     margin: 0;
     margin-top: 10px;
 }
 #title_span{
     color:white; 
-    font-size: 16px; 
-    padding-left: 5px;
+    font-size: 14px; 
+    padding-left: 3px;
 }
 #logo_p{
     height: 100px;
@@ -42,11 +41,11 @@ nav{
     padding: 0;
 }
 .nav_ul_li{
-    padding: 0 40px;
-    font-size: 25px;
+    padding: 0 25px;
+    font-size: 18px;
     color: white;
-    height: 100px;
-    line-height: 100px;
+    height: 90px;
+    line-height: 90px;
 }
 .nav_ul_li:hover{
     background-color: rgb(33, 68, 145);
