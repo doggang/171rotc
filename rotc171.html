@@ -7,6 +7,7 @@
     <title>한림대학교 171 학군단</title>
 </head>
 <body>
+  <!-- 상단 네비게이션 -->
     <nav>
         <div id="logo">
             <a href="page.html"><img height="75px" src="image/rotc.png" alt="학군단"></a>
@@ -16,46 +17,86 @@
             </div>
         </div>
         <ul id="nav_ul">
-                <a href="page.html"><li class="nav_ul_li">학군단 소개</li></a>
+                <a href="information.html"><li class="nav_ul_li">171 학군단 소개</li></a>
                 <a href="page.html"><li class="nav_ul_li">공지사항</li></a>
                 <a href="page.html"><li class="nav_ul_li">학군단 모집안내</li></a>
                 <a href="page.html"><li class="nav_ul_li">학군사관 후보생이란?</li></a>
         </ul>
     </nav>
-    <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-            <div class="caption left-align">
-              <h3>Left Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-            <div class="caption right-align">
-              <h3>Right Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-        </ul>
-      </div>
-    <link rel="stylesheet" href="rotc.css">
-    <link rel="stylesheet" href="sleider_js.js">
+    <!-- 슬라이드쇼 컨테이너 -->
+<div class="slideshow-container">
+
+  <!-- 숫자와 캡션이 있는 이미지 -->
+  <div class="mySlides fade">
+    <img src="image/rotc_bg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image/rotc_bg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/slide1.jpg" style="width:100%">
+  </div>
+
+  <!-- 다음, 이전 이미지 버튼 -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- 현재 이미지를 알려주는 하단의 점 -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<aside>
+  <ul id="aside_ul">
+    <a href="#"><li class="aside_ul_li">
+      <img src="image/call.png.png" alt="">
+      <p>전화</p>
+    </li></a>
+    <a href="#"><li class="aside_ul_li">
+      <img src="image/kakao.png.png" alt="">
+      <p>카카오톡</p>
+    </li></a>
+    <a href="#"><li class="aside_ul_li">
+      <img src="image/instagram.png" alt="">
+      <p>인스타그램</p>
+    </li></a>
+    <a href="#"><li id="aside_ul_li_top">
+      <p onclick="window.scrollTo(0,0);">Top</p>
+    </li></a>
+  </ul>
+</aside>
+
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<!-- 참조 스크립트 -->
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="aside.css">
+    <script src="slider.js"></script>
 </body>
 </html>
